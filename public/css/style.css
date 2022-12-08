@@ -22,3 +22,7 @@ body {
   line-height: 1.5;
 }
 
+.bg-custom {
+  background: radial-gradient(118.42% 118.42% at 50% 50%, rgba(28, 74, 86, 0.47) 0%, #202658 100%);
+  
+}
