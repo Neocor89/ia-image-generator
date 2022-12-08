@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --light: #f1f1f1;
+}
+html {
+  height: 100%;
+}
+
+
+body {
+  background: radial-gradient(118.42% 118.42% at 50% 50%, #1C4A56 0%, #202658 100%);
+  font-family: "Roboto", "Helvetica Neue", Arial;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
