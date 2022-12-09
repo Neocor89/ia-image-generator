@@ -38,21 +38,21 @@
   left: 0%;
   top: 0%;
   animation: rotate-one 1s linear infinite;
-  border-bottom: 3px solid #b8bedd;
+  border-bottom: 4.5px solid #b8bedd;
 }
 
 .inner.two {
   right: 0%;
   top: 0%;
   animation: rotate-two 1s linear infinite;
-  border-right: 3px solid #ffedd8;
+  border-right: 4.5px solid #ffedd8;
 }
 
 .inner.three {
   right: 0%;
   bottom: 0%;
   animation: rotate-three 1s linear infinite;
-  border-top: 3px solid #a8e9f5;
+  border-top: 4.5px solid #a8e9f5;
 }
 
 @keyframes rotate-one {

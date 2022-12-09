@@ -21,6 +21,20 @@ body {
 
 .bg-custom {
   background: radial-gradient(118.42% 118.42% at 50% 50%, rgba(24, 67, 78, 0.47) 0%, #191f56 100%);
-  
+}
+
+.small {
+  width: 256px;
+  height: 256px;  
+}
+
+.medium {
+  width: 512px;
+  height: 512px;
+}
+
+.large {
+  width: 1024px;
+  height: 1024px;
 }
 

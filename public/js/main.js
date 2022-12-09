@@ -35,7 +35,6 @@ async function generatorImageRequest(prompt, size) {
     }
 
     const data = await response.json();
-    // console.log(data);
 
     const iaImage = data.data;
 
