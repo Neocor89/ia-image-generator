@@ -26,6 +26,7 @@ body {
 .small {
   width: 256px;
   height: 256px;  
+  background: #000;
 }
 
 .medium {
