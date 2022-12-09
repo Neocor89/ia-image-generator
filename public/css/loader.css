@@ -1,3 +1,15 @@
+.loader-effect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  /* background: rgba(57, 62, 125, 0.711); */
+  background: rgba(34, 36, 69, 0.711);
+  display: none;
+}
+
 .loader {
   position: absolute;
   top: calc(50% - 92px);
@@ -6,14 +18,12 @@
   height: 124px;
   border-radius: 50%;
   perspective: 800px;
+  display: none;
 }
+
 
 .show {
   display: block;
-}
-
-.hide {
-  display: none;
 }
 
 .inner {
