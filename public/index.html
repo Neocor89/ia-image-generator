@@ -9,23 +9,78 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/loader.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>AIMG Generator</title>
+  <title>IAGEN image Generator</title>
 </head>
 
 <body>
-  <nav class="bg-custom h-20 flex items-center justify-center">
-    <h1 class="text-white text-3xl text-center font-bold">AIMG Image Generator</h1>
-  </nav>
 
-  <main class="mt-12">
-    <h2 class="text-white text-4xl text-center font-bold pt-24">Enter an image description</h2>
-  </main>
-
+  <!-- 
+    Loader Waiting Data 
+  -->
   <div class="loader">
     <div class="inner one"></div>
     <div class="inner two"></div>
     <div class="inner three"></div>
   </div>
+
+  <header class="bg-custom h-12 flex items-center justify-between px-3">
+    <h1 class="text-white text-2xl text-center font-bold">Image Generator</h1>
+    <img src="./assets/logo-openia.png" class="h-8" alt="logo">
+  </header>
+
+  <main class="">
+    <section class="section-form">
+      <div class="title_container h-32 flex items-center justify-center mt-20">
+        <h2 class="text-white text-3xl text-center font-bold">
+          Enter an image description
+        </h2>
+      </div>
+
+      <form action="" class="flex flex-col justify-center items-center">
+        <div class="flex justify-center">
+          <div class="mb-3 xl:w-96">
+            <textarea class="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      " id="prompt" rows="2" placeholder="Enter your description"></textarea>
+            <select
+              class="form-select block w-[520px] px-3 py-2.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              aria-label="Default select example">
+              <option selected>Select your image sizes</option>
+              <option value="1">Small</option>
+              <option value="2">Medium</option>
+              <option value="3">Large</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit"
+          class="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-600 text-white font-bold text-md leading-tight uppercase rounded shadow-md hover:shadow-lg focus:bg-cyan-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-cyan-800 active:shadow-lg transition duration-150 ease-in-out">Generate</button>
+      </form>
+    </section>
+
+    <!-- TODO / STOP HERE -->
+    <section class="">
+      <div class="">
+        <h2></h2>
+        <img src="" alt="" id="image">
+      </div>
+    </section>
+  </main>
+
+
 
 
 </body>
