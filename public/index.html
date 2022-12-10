@@ -26,7 +26,7 @@
     </div>
   </div>
 
-  <header class="bg-custom h-12 flex items-center justify-between px-3">
+  <header class="bg-custom h-16 flex items-center justify-between px-3">
     <h1 class="text-white sm:text-2xl text-md text-center font-medium">Image Generator</h1>
     <img src="./assets/logo-openia.png" class="h-6 sm:h-8" alt="logo">
   </header>
@@ -34,18 +34,20 @@
   <main>
     <section class="section-form">
       <div class="title_container h-20 flex items-center justify-center mt-20">
-        <h2 class="text-white text-xl sm:text-3xl text-center font-bold">
+        <h2 class="text-white text-xl sm:text-2xl lg:text-3xl text-center font-bold pb-3">
           Enter an image description
         </h2>
       </div>
 
-      <form id="image-form" class="flex flex-col justify-center items-center">
+      <form id="image-form" class="flex flex-col justify-center items-center w-full">
         <div class="flex flex-wrap justify-center">
           <div class="mb-3 xl:w-96">
             <textarea id="prompt" class="
         form-control
         block
         w-full
+        md:w-[450px]
+        sm:w-[320px]
         px-3
         py-1.5
         text-base
@@ -57,10 +59,10 @@
         ease-in-out
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none mb-6
-      " rows="2" placeholder="Enter your description"></textarea>
+      " rows="2" placeholder="Description text"></textarea>
             <select name="size" id="size"
-              class="form-select block w-[520px] px-3 py-3 text-base font-normal text-gray-600 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-              aria-label="Default select example">
+              class="form-select block md:w-[450px] sm:w-[320px] px-3 py-3 text-base font-normal text-gray-600 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+              aria-label="Text image description">
               <option>Select your image sizes</option>
               <option value="small" id="small">Small</option>
               <option value="medium" id="medium" selected>Medium</option>
