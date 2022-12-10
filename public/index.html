@@ -61,10 +61,10 @@
             <select name="size" id="size"
               class="form-select block w-[520px] px-3 py-3 text-base font-normal text-gray-600 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
               aria-label="Default select example">
-              <option selected>Select your image sizes</option>
-              <option value="1" id="small">Small</option>
-              <option value="2" id="medium">Medium</option>
-              <option value="3" id="large">Large</option>
+              <option>Select your image sizes</option>
+              <option value="small" id="small">Small</option>
+              <option value="medium" id="medium" selected>Medium</option>
+              <option value="large" id="large">Large</option>
             </select>
           </div>
         </div>
@@ -76,7 +76,7 @@
     <section class="image">
       <div class="image-content flex justify-center">
         <h2 class="msg"></h2>
-        <img id="image" src="" alt="" class="px-8 py-8 shadow-lg mt-16 pb-14">
+        <img src="" alt="" id="image" class="px-8 py-8 shadow-lg mt-16 pb-14">
       </div>
     </section>
   </main>
